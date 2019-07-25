@@ -9,11 +9,12 @@ pub fn is_even(num: i32) -> bool {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    //use super::*;
+    use is_even;
 
     #[test]
     fn is_true_when_even() {
-        assert!();
+        assert!(is_even(22));
     }
 }
 
