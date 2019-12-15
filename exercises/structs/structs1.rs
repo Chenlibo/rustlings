@@ -1,6 +1,8 @@
 // structs1.rs
 // Address all the TODOs to make the tests pass!
 
+// I AM NOT DONE
+
 struct ColorClassicStruct {
     // TODO: Something goes here
     name: String,
@@ -34,7 +36,6 @@ mod tests {
     #[test]
     fn tuple_structs() {
         // TODO: Instantiate a tuple struct!
-        // For more fun, use the field initialization shorthand.
         let green = ColorTupleStruct("green".to_string(), "#00FF00".to_string());
 
         assert_eq!(green.0, "green");
